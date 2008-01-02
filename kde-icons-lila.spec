@@ -14,6 +14,7 @@ Source:		%{theme_name}-%{version}.tar.bz2
 URL:		http://kde-look.org/content/show.php?content=11492
 Requires:	kdebase-progs kdegraphics-ksvg
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Lila is a port of a GNOME theme, also called Lila, that can be found here:
