@@ -2,7 +2,7 @@
 %define theme_name	lila
 %define version		0.7.1
 %define name		%{base_name}-%{theme_name}
-%define release %mkrel 4
+%define release %mkrel 6
 
 Name:		%{name}
 Version:	%{version}
