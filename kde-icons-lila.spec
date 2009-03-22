@@ -2,7 +2,7 @@
 %define theme_name	lila
 %define version		0.7.1
 %define name		%{base_name}-%{theme_name}
-%define release %mkrel 6
+%define release %mkrel 7
 
 Name:		%{name}
 Version:	%{version}
@@ -12,7 +12,8 @@ License:	GPL
 Group:		Graphical desktop/KDE
 Source:		%{theme_name}-%{version}.tar.bz2
 URL:		http://kde-look.org/content/show.php?content=11492
-Requires:	kdebase-progs kdegraphics-ksvg
+Requires:	kdebase3-progs 
+Requires:   kdegraphics3-ksvg
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
