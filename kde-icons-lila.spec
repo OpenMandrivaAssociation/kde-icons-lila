@@ -65,3 +65,48 @@ rm -rf $RPM_BUILD_ROOT
 %_iconsdir/%{theme_name}-%{version}/*
 %_datadir/apps/kdisplay/color-schemes/*.kcsrc
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.7.1-9mdv2011.0
++ Revision: 619898
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 0.7.1-8mdv2010.0
++ Revision: 438080
+- rebuild
+
+* Sun Mar 22 2009 Nicolas Lécureuil <nlecureuil@mandriva.com> 0.7.1-7mdv2009.1
++ Revision: 360334
+- Fix Requires
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.7.1-6mdv2009.0
++ Revision: 247603
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Sat Nov 10 2007 Nicolas Lécureuil <nlecureuil@mandriva.com> 0.7.1-4mdv2008.1
++ Revision: 107278
+- Fix Requires (kdebase-progs is a better require)
+- import kde-icons-lila
+
+
+* Tue Jul 11 2006 Nicolas L�cureuil <neoclust@mandriva.org> 0.7.1-3mdv2007.0
+- Rebuild for new extension
+- use mkrel
+
+*Wed Mar 23 2005 Sebastien Savarin <plouf@mandrake.org> 0.7.1-2mdk
+-rename icons kmenu.png > menuk-mdk.png kfm_home.png > home-mdk.png
+ icons.png > desktop-mdk.png at build
+
+* Tue Jan 25 2005 Laurent Culioli <laurent@mandrake.org> 0.7.1-1mdk
+-new version
+
+* Sun May 02 2004 Laurent Culioli <laurent@mandrake.org> 0.7-1mdk
+- 0.7
+
+* Mon Apr 19 2004 Laurent Culioli <laurent@mandrake.org> 0.6-1mdk
+- new kde icon theme
