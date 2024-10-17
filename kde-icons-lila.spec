@@ -11,7 +11,7 @@ Summary:	Lila icons for KDE Desktop
 License:	GPL
 Group:		Graphical desktop/KDE
 Source:		%{theme_name}-%{version}.tar.bz2
-URL:		http://kde-look.org/content/show.php?content=11492
+URL:		https://kde-look.org/content/show.php?content=11492
 Requires:	kdebase3-progs 
 Requires:   kdegraphics3-ksvg
 BuildArch:	noarch
